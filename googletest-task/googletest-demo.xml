@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2022-01-06T20:20:40" time="20" name="AllTests">
+  <testsuite name="TestSuite1" tests="2" failures="0" disabled="0" errors="0" time="20">
+    <testcase name="SucceddedTest" status="run" time="0" classname="TestSuite1" />
+    <testcase name="AnotherSucceddedTest" status="run" time="20" classname="TestSuite1" />
+  </testsuite>
+</testsuites>
