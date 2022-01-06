@@ -1,0 +1,39 @@
+<TestLog>
+    <TestSuite name="TestModule">
+        <TestSuite name="TestSuite1" file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="37">
+            <TestCase name="SucceddedCheckTest" file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="44">
+                <TestingTime>89</TestingTime>
+            </TestCase>
+            <TestCase name="SucceddedWarnTest" file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="66">
+                <Warning file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="68">
+                    <![CDATA[condition 1 == 0 is not satisfied [1 != 0]]]>
+                </Warning>
+                <Warning file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="69">
+                    <![CDATA[condition 1 == 2 is not satisfied [1 != 2]]]>
+                </Warning>
+                <Message file="boost.test framework" line="244">
+                    <![CDATA[Test case TestSuite1/SucceddedWarnTest did not check any assertions]]>
+                </Message>
+                <TestingTime>102</TestingTime>
+            </TestCase>
+            <TestCase name="SucceddedMessageTest" file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="72">
+                <Message file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="74">
+                    <![CDATA[blablabla]]>
+                </Message>
+                <Message file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="75">
+                    <![CDATA[abba]]>
+                </Message>
+                <TestingTime>91</TestingTime>
+            </TestCase>
+            <TestCase name="EmptyTest" file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="79">
+                <Message file="boost.test framework" line="244">
+                    <![CDATA[Test case TestSuite1/EmptyTest did not check any assertions]]>
+                </Message>
+                <TestingTime>73</TestingTime>
+            </TestCase>
+            <TestCase name="OneSecSuccededTest" file="/home/dev/boosttest-demo/src/Demo/Main.cpp" line="89">
+                <TestingTime>1000203</TestingTime>
+            </TestCase>
+        </TestSuite>
+    </TestSuite>
+</TestLog>
